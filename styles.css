@@ -1,0 +1,70 @@
+/*
+seletor{
+    propriedade:valor;
+}
+*/
+body{
+    text-decoration: none;
+    margin: 0;
+}
+
+header{
+    background-color: aqua;
+    
+}
+.nav-header a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 30px;
+    
+}
+
+body aside a{
+    text-decoration: none;
+
+}
+
+.cor-verde{
+    color:green;
+    text-decoration: none;
+    font-family: arial;
+    text-align: center;
+}
+
+#header-pesquisa {
+    color: black;
+
+}
+
+#header-pesquisa::placeholder {
+    color: violet;
+    text-align: center;
+    
+}
+textarea{ 
+    resize: none;
+}
+
+.formulário-contato p, .formulário-contato h3, .formulário-contato input{
+    background-color: red;
+    font-size: 10pt;
+    border-radius: 20px;
+    box-shadow: 1px 3px 5px 10px lightsalmon;
+}
+
+.negrito{
+    color: black;
+    text-align: center;
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+.negrito:hover{
+color: lawngreen;
+}
+
+button{
+    cursor:cell;
+
+}
+
